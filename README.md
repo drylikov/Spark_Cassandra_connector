@@ -47,9 +47,6 @@ If you want to access the functionality of Connector from Java, you may want to 
 
     libraryDependencies += "com.datastax.spark" %% "spark-cassandra-connector-java" % "1.2.0"
 
-## Building
-See [Building And Artifacts](doc/12_building_and_artifacts.md)
- 
 ## Documentation
 
   - [Quick-start guide](doc/0_quick_start.md)
@@ -73,9 +70,6 @@ See [Building And Artifacts](doc/12_building_and_artifacts.md)
 New issues should be reported using [JIRA](https://datastax-oss.atlassian.net/browse/SPARKC/).
 Please do not use the built-in GitHub issue tracker.
 It is left for archival purposes and it will be disabled soon.
-
-### Mailing List
-Questions etc can be submitted to the [user mailing list](http://groups.google.com/a/lists.datastax.com/forum/#!forum/spark-connector-user).
 
 ### Contributing
 To develop this project, we recommend using IntelliJ IDEA. 
@@ -107,13 +101,3 @@ Then copy the generated test jar to your Spark nodes and run:
     export IT_TEST_CASSANDRA_HOST=<IP of one of the Cassandra nodes>
     export IT_TEST_SPARK_MASTER=<Spark Master URL>
     ./sbt/sbt it:test
-
-## License
-
-Copyright 2014-2015, DataStax, Inc.
-
-Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
-
-http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
