@@ -64,12 +64,6 @@ If you want to access the functionality of Connector from Java, you may want to 
   - [Building And Artifacts](doc/12_building_and_artifacts.md)
   - [The Spark Shell](doc/13_spark_shell.md)
   - [Frequently Asked Questions](doc/FAQ.md)
-    
-## Community
-### Reporting Bugs
-New issues should be reported using [JIRA](https://datastax-oss.atlassian.net/browse/SPARKC/).
-Please do not use the built-in GitHub issue tracker.
-It is left for archival purposes and it will be disabled soon.
 
 ### Contributing
 To develop this project, we recommend using IntelliJ IDEA. 
