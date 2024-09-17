@@ -1,4 +1,4 @@
-# Spark Cassandra Connector [![Build Status](https://travis-ci.org/datastax/spark-cassandra-connector.svg)](http://travis-ci.org/datastax/spark-cassandra-connector)
+# Spark Cassandra Connector
 
 ## Important notice : Do NOT use GitHub issue tracker!
 We are going to disable it and no issues created there will be accessible.
